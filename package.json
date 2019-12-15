@@ -1,0 +1,25 @@
+{
+    "name": "stringtemplate",
+    "displayName": "StringTemplate",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "st",
+            "aliases": ["StringTemplate", "st"],
+            "extensions": ["st","stg"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "st",
+            "scopeName": "",
+            "path": "./syntaxes/st.tmLanguage.json"
+        }]
+    }
+}
